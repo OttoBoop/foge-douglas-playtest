@@ -1,0 +1,1 @@
+import{startRun as e}from"./run-DHrefpsF.js";function t(t){t.innerHTML=``;let n=Number(new URLSearchParams(location.search).get(`seed`))||7;e({chapter:`final`,host:t,seed:n,auto:!0,onEvent:e=>console.log(`[prévia final]`,e)})}export{t as showPreview};

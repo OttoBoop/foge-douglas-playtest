@@ -1,1 +1,0 @@
-import{startRun as e}from"./run-Br6XyfSW.js";function t(t){t.innerHTML=``;let n=Number(new URLSearchParams(location.search).get(`seed`))||7;e({chapter:`obras`,host:t,seed:n,auto:!0,onEvent:e=>console.log(`[prévia obras]`,e)})}export{t as showPreview};
