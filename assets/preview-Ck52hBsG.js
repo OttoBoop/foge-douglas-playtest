@@ -1,1 +1,0 @@
-import{startRun as e}from"./run-B06-7Bld.js";function t(t){t.innerHTML=``;let n=Number(new URLSearchParams(location.search).get(`seed`))||7;e({chapter:`seguranca`,host:t,seed:n,auto:!0,onEvent:e=>console.log(`[prévia seguranca]`,e)})}export{t as showPreview};
